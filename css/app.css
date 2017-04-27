@@ -20,10 +20,74 @@ callout.round, .callout.round {
 }
 
 .button:hover, .button:focus {
-	
+
 }
 
 h1 {
 	color: #FFFFFF
+}
 
+label {
+    display: block;
+    background: lightgrey;
+}
+
+#btnControl1{
+	display:none;
+}
+#btnControl2{
+	display:none;
+}
+#btnControl3{
+	display:none;
+}
+#btnControl4{
+	display:none;
+}
+#btnControl5{
+	display:none;
+}
+#btnControl6{
+	display:none;
+}
+#btnControl7{
+	display:none;
+}
+#btnControl8{
+	display:none;
+}
+
+
+
+#btnControl1:checked + label > img {
+    background: blue;
+    color: white;
+}
+#btnControl2:checked + label > img {
+    background: blue;
+    color: white;
+}
+#btnControl3:checked + label > img {
+    background: blue;
+    color: white;
+}
+#btnControl4:checked + label > img {
+    background: blue;
+    color: white;
+}
+#btnControl5:checked + label > img {
+    background: blue;
+    color: white;
+}
+#btnControl6:checked + label > img {
+    background: blue;
+    color: white;
+}
+#btnControl7:checked + label > img {
+    background: blue;
+    color: white;
+}
+#btnControl8:checked + label > img {
+    background: blue;
+    color: white;
 }

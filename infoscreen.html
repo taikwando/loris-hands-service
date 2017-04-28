@@ -7,6 +7,7 @@
 	<title>Lori's Hands</title>
 	<link rel="stylesheet" href="css/foundation.css">
 	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="ion.calendar-2.0.2/css/ion.calendar.css">
   </head>
   <body>
   	<!-- Title Bar -->
@@ -51,22 +52,134 @@
     </div>
 
     <!-- Time Slots -->
-
-
-
-
-
-
+    <div class="row" style="margin-left: 10px; font-size: 14pt; color: #004111; margin-top: 50px">
+    	<u>Availability</u>
+    </div>
+    <div class="row" style="margin-top: 10px">
+    	<div class="small-6 columns">
+    		<div class="myCalendar" id="myCalendar-1"></div>
+    	</div>
+    	<div class="small-6 columns">
+    		<div class="row" style="padding-left: 25px; padding-right: 25px; margin-top: 30px; color: #004111">
+    			From
+    			<select>
+    				<option value="choose time">Choose Time</option>
+    				<option value="12:00am">12:00am</option>
+    				<option value="12:30am">12:30am</option>
+    				<option value="1:00am">1:00am</option>
+    				<option value="1:30am">1:30am</option>
+    				<option value="2:00am">2:00am</option>
+    				<option value="2:30am">2:30am</option>
+    				<option value="3:00am">3:00am</option>
+    				<option value="3:30am">3:30am</option>
+    				<option value="4:00am">4:00am</option>
+    				<option value="4:30am">4:30am</option>
+    				<option value="5:00am">5:00am</option>
+    				<option value="5:30am">5:30am</option>
+    				<option value="6:00am">6:00am</option>
+    				<option value="6:30am">6:30am</option>
+    				<option value="7:00am">7:00am</option>
+    				<option value="7:30am">7:30am</option>
+    				<option value="8:00am">8:00am</option>
+    				<option value="8:30am">8:30am</option>
+    				<option value="9:00am">9:00am</option>
+    				<option value="9:30am">9:30am</option>
+    				<option value="10:00am">10:00am</option>
+    				<option value="10:30am">10:30am</option>
+    				<option value="11:00am">11:00am</option>
+    				<option value="11:30am">11:30am</option>
+    				<option value="12:00pm">12:00pm</option>
+    				<option value="12:30pm">12:30pm</option>
+    				<option value="1:00pm">1:00pm</option>
+    				<option value="1:30pm">1:30pm</option>
+    				<option value="2:00pm">2:00pm</option>
+    				<option value="2:30pm">2:30pm</option>
+    				<option value="3:00pm">3:00pm</option>
+    				<option value="3:30pm">3:30pm</option>
+    				<option value="4:00pm">4:00pm</option>
+    				<option value="4:30pm">4:30pm</option>
+    				<option value="5:00pm">5:00pm</option>
+    				<option value="5:30pm">5:30pm</option>
+    				<option value="6:00pm">6:00pm</option>
+    				<option value="6:30pm">6:30pm</option>
+    				<option value="7:00pm">7:00pm</option>
+    				<option value="7:30pm">7:30pm</option>
+    				<option value="8:00pm">8:00pm</option>
+    				<option value="8:30pm">8:30pm</option>
+    				<option value="9:00pm">9:00pm</option>
+    				<option value="9:30pm">9:30pm</option>
+    				<option value="10:00pm">10:00pm</option>
+    				<option value="10:30pm">10:30pm</option>
+    				<option value="11:00pm">11:00pm</option>
+    				<option value="11:30pm">11:30pm</option>
+    			</select>
+    		</div>
+    		<div class="row" style="margin-top: 25px; padding-left: 25px; padding-right: 25px; color: #004111">
+    			To
+    			<select>
+    				<option value="choose time">Choose Time</option>
+    				<option value="12:00am">12:00am</option>
+    				<option value="12:30am">12:30am</option>
+    				<option value="1:00am">1:00am</option>
+    				<option value="1:30am">1:30am</option>
+    				<option value="2:00am">2:00am</option>
+    				<option value="2:30am">2:30am</option>
+    				<option value="3:00am">3:00am</option>
+    				<option value="3:30am">3:30am</option>
+    				<option value="4:00am">4:00am</option>
+    				<option value="4:30am">4:30am</option>
+    				<option value="5:00am">5:00am</option>
+    				<option value="5:30am">5:30am</option>
+    				<option value="6:00am">6:00am</option>
+    				<option value="6:30am">6:30am</option>
+    				<option value="7:00am">7:00am</option>
+    				<option value="7:30am">7:30am</option>
+    				<option value="8:00am">8:00am</option>
+    				<option value="8:30am">8:30am</option>
+    				<option value="9:00am">9:00am</option>
+    				<option value="9:30am">9:30am</option>
+    				<option value="10:00am">10:00am</option>
+    				<option value="10:30am">10:30am</option>
+    				<option value="11:00am">11:00am</option>
+    				<option value="11:30am">11:30am</option>
+    				<option value="12:00pm">12:00pm</option>
+    				<option value="12:30pm">12:30pm</option>
+    				<option value="1:00pm">1:00pm</option>
+    				<option value="1:30pm">1:30pm</option>
+    				<option value="2:00pm">2:00pm</option>
+    				<option value="2:30pm">2:30pm</option>
+    				<option value="3:00pm">3:00pm</option>
+    				<option value="3:30pm">3:30pm</option>
+    				<option value="4:00pm">4:00pm</option>
+    				<option value="4:30pm">4:30pm</option>
+    				<option value="5:00pm">5:00pm</option>
+    				<option value="5:30pm">5:30pm</option>
+    				<option value="6:00pm">6:00pm</option>
+    				<option value="6:30pm">6:30pm</option>
+    				<option value="7:00pm">7:00pm</option>
+    				<option value="7:30pm">7:30pm</option>
+    				<option value="8:00pm">8:00pm</option>
+    				<option value="8:30pm">8:30pm</option>
+    				<option value="9:00pm">9:00pm</option>
+    				<option value="9:30pm">9:30pm</option>
+    				<option value="10:00pm">10:00pm</option>
+    				<option value="10:30pm">10:30pm</option>
+    				<option value="11:00pm">11:00pm</option>
+    				<option value="11:30pm">11:30pm</option>
+    			</select>
+    		</div>
+    	</div>
+    </div>
 
     <!-- Illnesses -->
     <div class="row">
-    	<div class="small-12 columns" style="color: #004111; font-size: 14pt; margin-top: 20px">
+    	<div class="small-12 columns" style="color: #004111; font-size: 14pt; margin-top: 50px">
     		Illnesses
     	</div>
     </div>
     <div class="row" style="margin-top: 10px">
     	<div class="small-6 columns">
-	    	<ul class="menu vertical" style="margin-left: 15px">
+	    	<ul class="menu vertical">
 	    		<li><input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label></li>
 	    		<li><input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label></li>
 	    		<li><input id="checkbox3" type="checkbox"><label for="checkbox3">Checkbox 3</label></li>
@@ -74,7 +187,7 @@
 	    	</ul>
     	</div>
     	<div class="small-6 columns">
-	    	<ul class="menu vertical" style="margin-left: 15px">
+	    	<ul class="menu vertical">
 	    		<li><input id="checkbox5" type="checkbox"><label for="checkbox5">Checkbox 5</label></li>
 	    		<li><input id="checkbox6" type="checkbox"><label for="checkbox6">Checkbox 6</label></li>
 	    		<li><input id="checkbox7" type="checkbox"><label for="checkbox7">Checkbox 7</label></li>
@@ -85,10 +198,23 @@
 
 
 
-
   	<script src="js/vendor/jquery.js"></script>
   	<script src="js/vendor/what-input.js"></script>
   	<script src="js/vendor/foundation.js"></script>
   	<script src="js/app.js"></script>
+
+  	<script type="text/javascript" src="javascript/jquery-1.3.2.min.js"></script>
+  	<script src="ion.calendar-2.0.2/js/moment-with-locales.min.js"></script>
+  	<script src="ion.calendar-2.0.2/js/ion.calendar.min.js"></script>
+  	
+  	<script>$("#myCalendar-1").ionCalendar({
+    lang: "en",                     // language
+    sundayFirst: true,             // first week day
+    years: "80",                    // years diapason
+    format: "DD.MM.YYYY",           // date format
+    onClick: function(date){        // click on day returns date
+        console.log(date);
+    }
+});</script>
   </body>
 </html>

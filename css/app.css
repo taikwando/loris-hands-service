@@ -1,26 +1,25 @@
-button.radius, .button.radius {
-	border-radius: 3px;
-}
-
-button.round, .button.round {
-	border-radius: 1000px;
-}
-
-callout.radius, .callout.radius {
-	border-radius: 3px;
-}
-
-callout.round, .callout.round {
-	border-radius: 1000px;
-}
-
 .button {
-	background-color: #004111;
-	color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #004111;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .button:hover, .button:focus {
-
+    background-color: #008E25;
 }
 
 h1 {
@@ -114,4 +113,8 @@ label img {
 	border: 5px solid #004111;
 	border-radius: 20%;
 	filter: grayscale(0%);
+}
+
+img:overlaybackground {
+    opacity: 1;
 }

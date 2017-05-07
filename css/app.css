@@ -10,7 +10,7 @@
     outline: none;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 5px #999;
 }
 
 .button:active{

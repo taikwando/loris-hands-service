@@ -32,6 +32,10 @@ h1 {
 	color: #FFFFFF
 }
 
+h3 {
+  color: #004111;
+}
+
 label img {
     display: block;
 		filter: grayscale(100%);
@@ -65,56 +69,55 @@ label img {
 
 
 #btnControl1:checked + label > img {
-    background: blue;
     color: white;
 		border: 5px solid #004111;
 		border-radius: 20%;
 		filter: grayscale(0%);
 }
 #btnControl2:checked + label > img {
-	background: blue;
+
 	color: white;
 	border: 5px solid #004111;
 	border-radius: 20%;
 	filter: grayscale(0%);
 }
 #btnControl3:checked + label > img {
-	background: blue;
+
 	color: white;
 	border: 5px solid #004111;
 	border-radius: 20%;
 	filter: grayscale(0%);
 }
 #btnControl4:checked + label > img {
-	background: blue;
+
 	color: white;
 	border: 5px solid #004111;
 	border-radius: 20%;
 	filter: grayscale(0%);
 }
 #btnControl5:checked + label > img {
-	background: blue;
+
 	color: white;
 	border: 5px solid #004111;
 	border-radius: 20%;
 	filter: grayscale(0%);
 }
 #btnControl6:checked + label > img {
-	background: blue;
+
 	color: white;
 	border: 5px solid #004111;
 	border-radius: 20%;
 	filter: grayscale(0%);
 }
 #btnControl7:checked + label > img {
-	background: blue;
+
 	color: white;
 	border: 5px solid #004111;
 	border-radius: 20%;
 	filter: grayscale(0%);
 }
 #btnControl8:checked + label > img {
-	background: blue;
+
 	color: white;
 	border: 5px solid #004111;
 	border-radius: 20%;

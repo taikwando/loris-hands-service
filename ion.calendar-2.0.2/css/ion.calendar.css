@@ -29,6 +29,7 @@
 
 .ic__container {
     position: relative;
+    width: 190px;
     background: #fff;
 }
     .ic__container table {
